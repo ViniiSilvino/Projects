@@ -1,0 +1,36 @@
+Crie um sistema de gerenciamento de informacoes de funcionarios de uma empresa seguindo criteriosa-
+mente os requisitos solicitados neste documento. Primeiramente, ao iniciar o programa, deve ser lido um
+
+arquivo.csv
+
+contendo as informa ̧c ̃oes sobre os funcionarios, como nome completo, endere ̧co, data de nascimento e sal ́ario. 
+Em seguida, vocˆe armazenar ́a essas informacoes em uma lista duplamente encadeada ordenada por nome. 
+Apos construir a lista duplamente encadeada, voce permitira ao usuario escolher entre as seguintes opcoes:
+
+• Pesquisar os funcionarios na lista por intervalo salarial: o usu ́ario deve digitar o valor m ́ınimo e
+o maximo (valormin ≤ valormax), e, com isso, deve-se imprimir em tela as informacoes (nome,
+endere ̧co, sal ́ario, nascimento) dos funcionarios que recebem o sal ́ario dentro desta faixa de valor;
+
+• Exibir a lista de funcion ́arios ordenados por nome de A-Z: exibir em ordem alfab ́etica o nome e
+todas as informacoes (endereco, salario, nascimento) dos funcionarios;
+
+• Exibir a lista de funcion ́arios ordenados por nome de Z-A: similar a especifica ̧c ̃ao anterior, por ́em
+em ordem Z-A;
+
+• Transformar a lista duplamente encadeada em uma  ́arvore AVL (organizando-a por dias vividos
+de cada pessoa): caso escolha esta opcao, a sua lista deixar ́a de existir, pois cada elemento da
+lista se transformar ́a em um no/elemento da AVL (veja o exemplo da Figura 3). Para realizar esta
+implementa ̧c ̃ao vocˆe NAO deve alocar memoria novamente, apenas ocorrer ́a uma reorganiza ̧c ̃ao dos  ̃
+elementos. Ao selecionar este caminho, um novo menu deve ser exibido aos usuarios do sistema,
+permitindo que escolha executar as seguintes opcoes:
+
+– Pesquisar funcion ́arios na  ́arvore AVL por intervalo salarial: o usu ́ario deve digitar o valor
+m ́ınimo e o maximo (valormin ≤ valormax), e, com isso, deve-se imprimir em tela as informa ̧c ̃oes
+(nome, endere ̧co, sal ́ario, nascimento) dos funcion ́arios que recebem o sal ́ario dentro desta faixa
+de valor;
+
+– Imprimir a lista de funcionarios (todas as informa ̧c ̃oes) ordenada por idade, come ̧cando do mais
+jovem, ate chegar ao mais velho (n ̃ao utilizar nenhuma outra estrutura de dados auxiliar);
+
+– Imprimir a lista de funcionarios ordenada por idade, comecando do mais velho, ate chegar ao
+mais jovem (nao utilizar nenhuma outra estrutura de dados auxiliar);
